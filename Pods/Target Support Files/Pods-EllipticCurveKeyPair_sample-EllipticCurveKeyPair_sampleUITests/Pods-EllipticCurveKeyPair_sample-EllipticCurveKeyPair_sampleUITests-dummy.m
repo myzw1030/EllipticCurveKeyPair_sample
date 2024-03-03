@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_EllipticCurveKeyPair_sample_EllipticCurveKeyPair_sampleUITests : NSObject
+@end
+@implementation PodsDummy_Pods_EllipticCurveKeyPair_sample_EllipticCurveKeyPair_sampleUITests
+@end

@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CDE90A5C300144AFE5D3458B9376EC9 /* Pods-EllipticCurveKeyPair_sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D1E97E130A2FC7BA5B1F04311E5487 /* Pods-EllipticCurveKeyPair_sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1737197E8216920E0479BFE8773E2F35 /* Pods-EllipticCurveKeyPair_sampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1BC975D34FCD88F36628DF3907BD96 /* Pods-EllipticCurveKeyPair_sampleTests-dummy.m */; };
+		195BC5F9387FD568B28B1EADA401A279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45A6118C7F47A4EE5CC55AE20F19D73 /* Foundation.framework */; };
+		38AE1825635C4ED47C60748273BB440B /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FC82D2F1D7A5BD49D5C136279C61D3 /* SHA256.swift */; };
+		5E40AC8D6AFB6EBE4BB216C573BB9881 /* Pods-EllipticCurveKeyPair_sampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10EA4F67350FFB001CBC7F48C5D2F478 /* Pods-EllipticCurveKeyPair_sampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B099EAFAD638E5409D98734F260DF29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45A6118C7F47A4EE5CC55AE20F19D73 /* Foundation.framework */; };
+		7E6D256FF2DB6B9998E71466B1EACAC7 /* EllipticCurveKeyPair-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 614263D655643DCB2D7FA5D6D3D9E672 /* EllipticCurveKeyPair-dummy.m */; };
+		98A6C285433D22F873ADFAE0BE8DE878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45A6118C7F47A4EE5CC55AE20F19D73 /* Foundation.framework */; };
+		B3731DCEB2A4A6E436FE0FE5D17889DD /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2546338AED2F58379D104C2DA8708354 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD512F33FD68BC85A019A014DACD903C /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A108176A1A61BA2B62FC5A9225B7F94 /* LocalAuthentication.framework */; };
+		BF037F5B2076791333965B7F953BEE93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F25F81053DDED25D68272CBDF03CEB /* Security.framework */; };
+		C13FDCDD900CDB696BAA1C4267E83717 /* EllipticCurveKeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAA7C5D139FB38B89153FA92B036BF /* EllipticCurveKeyPair.swift */; };
+		D470861102790D03CA01727CD2673713 /* EllipticCurveKeyPair-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7A135A10DB8BE4E7B5C913B0546AE9 /* EllipticCurveKeyPair-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E912DD90D055456AB09ECFC943FFD09D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45A6118C7F47A4EE5CC55AE20F19D73 /* Foundation.framework */; };
+		F35A183DE372158CDBABEA21E1640DDF /* Pods-EllipticCurveKeyPair_sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4708D8344A5F7BC52235366AE72E9B /* Pods-EllipticCurveKeyPair_sample-dummy.m */; };
+		FA0D1E7124635617E6F3F48364E27DDD /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7FA3247A308799793B731EFDED7A2D /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4EFDF5B03F26942635BA2D8165A1376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A3EE3D067DF5C1B467542440F611D5;
+			remoteInfo = EllipticCurveKeyPair;
+		};
+		C1537048777B088A2FC8A1F26D8EC797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A3EE3D067DF5C1B467542440F611D5;
+			remoteInfo = EllipticCurveKeyPair;
+		};
+		F558100448EEA9B852071D38B3174157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D2203CEB551B5BF939910E2D90AEB2;
+			remoteInfo = "Pods-EllipticCurveKeyPair_sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		095CF1BCA3AE05082B0334EFB1D7793A /* Pods-EllipticCurveKeyPair_sample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EllipticCurveKeyPair_sample-Info.plist"; sourceTree = "<group>"; };
+		0F495FA8E094F88AF17B29EF9F756BA1 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F7A135A10DB8BE4E7B5C913B0546AE9 /* EllipticCurveKeyPair-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EllipticCurveKeyPair-umbrella.h"; sourceTree = "<group>"; };
+		10EA4F67350FFB001CBC7F48C5D2F478 /* Pods-EllipticCurveKeyPair_sampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EllipticCurveKeyPair_sampleTests-umbrella.h"; sourceTree = "<group>"; };
+		120F7D5F4380AABC54D74FD7C8B154C5 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2214DCCA43CEB82C493E0F9417607952 /* Pods-EllipticCurveKeyPair_sampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EllipticCurveKeyPair_sampleTests-Info.plist"; sourceTree = "<group>"; };
+		2445B7B11E07215703FC235F6AC9FE40 /* EllipticCurveKeyPair-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EllipticCurveKeyPair-prefix.pch"; sourceTree = "<group>"; };
+		2546338AED2F58379D104C2DA8708354 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		25BECCCBF2A6C19725BEB9047DA42B14 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		25D1E97E130A2FC7BA5B1F04311E5487 /* Pods-EllipticCurveKeyPair_sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EllipticCurveKeyPair_sample-umbrella.h"; sourceTree = "<group>"; };
+		2A42D3D4D5E15A3E059EC6EF13034C66 /* Pods-EllipticCurveKeyPair_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EllipticCurveKeyPair_sample.release.xcconfig"; sourceTree = "<group>"; };
+		2C023D58E013779EEAB8A8E21ED61E34 /* Pods-EllipticCurveKeyPair_sampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EllipticCurveKeyPair_sampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C5B4DCC0682053AFAF0F6ED3B2C5BBE /* Pods-EllipticCurveKeyPair_sampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EllipticCurveKeyPair_sampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		365D0CD5F8298009EBABD0E8D496ECFB /* Pods-EllipticCurveKeyPair_sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EllipticCurveKeyPair_sampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D2DEC737D69600A4F9544403DCDBF83 /* Pods-EllipticCurveKeyPair_sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EllipticCurveKeyPair_sample-frameworks.sh"; sourceTree = "<group>"; };
+		4411E0900EBA403B707853816092DAC3 /* EllipticCurveKeyPair.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EllipticCurveKeyPair.modulemap; sourceTree = "<group>"; };
+		566378E47EED2AFDC75E52AC6EA03AEA /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-Info.plist"; sourceTree = "<group>"; };
+		5A108176A1A61BA2B62FC5A9225B7F94 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
+		5B4D7EED8D5E132AD0994963CABD6132 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F3D416ACAEE17260CE7AC7D0CAC7911 /* Pods-EllipticCurveKeyPair_sampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EllipticCurveKeyPair_sampleTests.modulemap"; sourceTree = "<group>"; };
+		614263D655643DCB2D7FA5D6D3D9E672 /* EllipticCurveKeyPair-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EllipticCurveKeyPair-dummy.m"; sourceTree = "<group>"; };
+		62552D91800F0272764209A4CBCA150A /* Pods-EllipticCurveKeyPair_sample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EllipticCurveKeyPair_sample"; path = Pods_EllipticCurveKeyPair_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EEACDF64CD655607A5BD186B14A1158 /* Pods-EllipticCurveKeyPair_sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EllipticCurveKeyPair_sample.modulemap"; sourceTree = "<group>"; };
+		71F25F81053DDED25D68272CBDF03CEB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		758293562E7448232810C6DBBE28CD55 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.modulemap"; sourceTree = "<group>"; };
+		823C20763FCF3E15F5006ECB1C5CFBC7 /* Pods-EllipticCurveKeyPair_sampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EllipticCurveKeyPair_sampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F4708D8344A5F7BC52235366AE72E9B /* Pods-EllipticCurveKeyPair_sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EllipticCurveKeyPair_sample-dummy.m"; sourceTree = "<group>"; };
+		94FC82D2F1D7A5BD49D5C136279C61D3 /* SHA256.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA256.swift; path = Sources/SHA256.swift; sourceTree = "<group>"; };
+		9C1BC975D34FCD88F36628DF3907BD96 /* Pods-EllipticCurveKeyPair_sampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EllipticCurveKeyPair_sampleTests-dummy.m"; sourceTree = "<group>"; };
+		9C1BEFA0F2AC3D3CB7DC2DF2C22900DC /* EllipticCurveKeyPair.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EllipticCurveKeyPair.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A485A644673499CF79453EDBC395ADE6 /* EllipticCurveKeyPair */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EllipticCurveKeyPair; path = EllipticCurveKeyPair.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FAD4C0D369B8C9059E4EDA51FE7AD0 /* Pods-EllipticCurveKeyPair_sampleTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EllipticCurveKeyPair_sampleTests"; path = Pods_EllipticCurveKeyPair_sampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB43F0D11B67E576D703B3869A48E511 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests"; path = Pods_EllipticCurveKeyPair_sample_EllipticCurveKeyPair_sampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1C97FF1EABFF7C150648FBAF2F5316 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8ABBFFF5D3D209533B8C4D46138551 /* EllipticCurveKeyPair.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EllipticCurveKeyPair.release.xcconfig; sourceTree = "<group>"; };
+		D45A6118C7F47A4EE5CC55AE20F19D73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA725F24F4BD325B9CE5349E34A917D1 /* Pods-EllipticCurveKeyPair_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EllipticCurveKeyPair_sample.debug.xcconfig"; sourceTree = "<group>"; };
+		DC68F47AE3AB306B4D5AED66BC0B5038 /* Pods-EllipticCurveKeyPair_sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EllipticCurveKeyPair_sample-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF7FA3247A308799793B731EFDED7A2D /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-dummy.m"; sourceTree = "<group>"; };
+		F128F811A08758A0D624236E8CB952AB /* Pods-EllipticCurveKeyPair_sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EllipticCurveKeyPair_sample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F43C50BD0999D9E3A7BC11ADCB56A42B /* EllipticCurveKeyPair-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EllipticCurveKeyPair-Info.plist"; sourceTree = "<group>"; };
+		F7CAA7C5D139FB38B89153FA92B036BF /* EllipticCurveKeyPair.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EllipticCurveKeyPair.swift; path = Sources/EllipticCurveKeyPair.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C770BCD5ED316B9DD705DB446D4BEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B099EAFAD638E5409D98734F260DF29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C71AD061E63EBFCED2B5035569155B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A6C285433D22F873ADFAE0BE8DE878 /* Foundation.framework in Frameworks */,
+				BD512F33FD68BC85A019A014DACD903C /* LocalAuthentication.framework in Frameworks */,
+				BF037F5B2076791333965B7F953BEE93 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BC4C6C354FA6467A068EE8EFDFC452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195BC5F9387FD568B28B1EADA401A279 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A17E667FB29972E24351AE92AF8FAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E912DD90D055456AB09ECFC943FFD09D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0091B4FA72023045FE1CA16E30EDC9E3 /* Pods-EllipticCurveKeyPair_sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D416ACAEE17260CE7AC7D0CAC7911 /* Pods-EllipticCurveKeyPair_sampleTests.modulemap */,
+				2C5B4DCC0682053AFAF0F6ED3B2C5BBE /* Pods-EllipticCurveKeyPair_sampleTests-acknowledgements.markdown */,
+				823C20763FCF3E15F5006ECB1C5CFBC7 /* Pods-EllipticCurveKeyPair_sampleTests-acknowledgements.plist */,
+				9C1BC975D34FCD88F36628DF3907BD96 /* Pods-EllipticCurveKeyPair_sampleTests-dummy.m */,
+				2214DCCA43CEB82C493E0F9417607952 /* Pods-EllipticCurveKeyPair_sampleTests-Info.plist */,
+				10EA4F67350FFB001CBC7F48C5D2F478 /* Pods-EllipticCurveKeyPair_sampleTests-umbrella.h */,
+				2C023D58E013779EEAB8A8E21ED61E34 /* Pods-EllipticCurveKeyPair_sampleTests.debug.xcconfig */,
+				365D0CD5F8298009EBABD0E8D496ECFB /* Pods-EllipticCurveKeyPair_sampleTests.release.xcconfig */,
+			);
+			name = "Pods-EllipticCurveKeyPair_sampleTests";
+			path = "Target Support Files/Pods-EllipticCurveKeyPair_sampleTests";
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4D055486F4B587449D54DB6A75B23FC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E8B0FA89BB09C12DE30FF39A492FE34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66551DEFCAE11B99E1EDEED899213573 /* Pods-EllipticCurveKeyPair_sample */,
+				41643710B17179B665CDE181BE6CF835 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests */,
+				0091B4FA72023045FE1CA16E30EDC9E3 /* Pods-EllipticCurveKeyPair_sampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		41643710B17179B665CDE181BE6CF835 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				758293562E7448232810C6DBBE28CD55 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.modulemap */,
+				120F7D5F4380AABC54D74FD7C8B154C5 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-acknowledgements.markdown */,
+				5B4D7EED8D5E132AD0994963CABD6132 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-acknowledgements.plist */,
+				EF7FA3247A308799793B731EFDED7A2D /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-dummy.m */,
+				25BECCCBF2A6C19725BEB9047DA42B14 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-frameworks.sh */,
+				566378E47EED2AFDC75E52AC6EA03AEA /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-Info.plist */,
+				2546338AED2F58379D104C2DA8708354 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-umbrella.h */,
+				BE1C97FF1EABFF7C150648FBAF2F5316 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.debug.xcconfig */,
+				0F495FA8E094F88AF17B29EF9F756BA1 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.release.xcconfig */,
+			);
+			name = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests";
+			path = "Target Support Files/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests";
+			sourceTree = "<group>";
+		};
+		66551DEFCAE11B99E1EDEED899213573 /* Pods-EllipticCurveKeyPair_sample */ = {
+			isa = PBXGroup;
+			children = (
+				6EEACDF64CD655607A5BD186B14A1158 /* Pods-EllipticCurveKeyPair_sample.modulemap */,
+				F128F811A08758A0D624236E8CB952AB /* Pods-EllipticCurveKeyPair_sample-acknowledgements.markdown */,
+				DC68F47AE3AB306B4D5AED66BC0B5038 /* Pods-EllipticCurveKeyPair_sample-acknowledgements.plist */,
+				8F4708D8344A5F7BC52235366AE72E9B /* Pods-EllipticCurveKeyPair_sample-dummy.m */,
+				3D2DEC737D69600A4F9544403DCDBF83 /* Pods-EllipticCurveKeyPair_sample-frameworks.sh */,
+				095CF1BCA3AE05082B0334EFB1D7793A /* Pods-EllipticCurveKeyPair_sample-Info.plist */,
+				25D1E97E130A2FC7BA5B1F04311E5487 /* Pods-EllipticCurveKeyPair_sample-umbrella.h */,
+				DA725F24F4BD325B9CE5349E34A917D1 /* Pods-EllipticCurveKeyPair_sample.debug.xcconfig */,
+				2A42D3D4D5E15A3E059EC6EF13034C66 /* Pods-EllipticCurveKeyPair_sample.release.xcconfig */,
+			);
+			name = "Pods-EllipticCurveKeyPair_sample";
+			path = "Target Support Files/Pods-EllipticCurveKeyPair_sample";
+			sourceTree = "<group>";
+		};
+		99DB1E7E3A12EA34412630078A4D5415 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4411E0900EBA403B707853816092DAC3 /* EllipticCurveKeyPair.modulemap */,
+				614263D655643DCB2D7FA5D6D3D9E672 /* EllipticCurveKeyPair-dummy.m */,
+				F43C50BD0999D9E3A7BC11ADCB56A42B /* EllipticCurveKeyPair-Info.plist */,
+				2445B7B11E07215703FC235F6AC9FE40 /* EllipticCurveKeyPair-prefix.pch */,
+				0F7A135A10DB8BE4E7B5C913B0546AE9 /* EllipticCurveKeyPair-umbrella.h */,
+				9C1BEFA0F2AC3D3CB7DC2DF2C22900DC /* EllipticCurveKeyPair.debug.xcconfig */,
+				CB8ABBFFF5D3D209533B8C4D46138551 /* EllipticCurveKeyPair.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EllipticCurveKeyPair";
+			sourceTree = "<group>";
+		};
+		A4D055486F4B587449D54DB6A75B23FC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D45A6118C7F47A4EE5CC55AE20F19D73 /* Foundation.framework */,
+				5A108176A1A61BA2B62FC5A9225B7F94 /* LocalAuthentication.framework */,
+				71F25F81053DDED25D68272CBDF03CEB /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C07C4198260BA7F24A7274FEAC58D1A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A485A644673499CF79453EDBC395ADE6 /* EllipticCurveKeyPair */,
+				62552D91800F0272764209A4CBCA150A /* Pods-EllipticCurveKeyPair_sample */,
+				BB43F0D11B67E576D703B3869A48E511 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests */,
+				B3FAD4C0D369B8C9059E4EDA51FE7AD0 /* Pods-EllipticCurveKeyPair_sampleTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				E23F040661731C3195ADA527FC28BE78 /* Pods */,
+				C07C4198260BA7F24A7274FEAC58D1A8 /* Products */,
+				0E8B0FA89BB09C12DE30FF39A492FE34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E23F040661731C3195ADA527FC28BE78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6DE5FE1CA8B0AF4AC7AD72C71AB5C63 /* EllipticCurveKeyPair */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6DE5FE1CA8B0AF4AC7AD72C71AB5C63 /* EllipticCurveKeyPair */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAA7C5D139FB38B89153FA92B036BF /* EllipticCurveKeyPair.swift */,
+				94FC82D2F1D7A5BD49D5C136279C61D3 /* SHA256.swift */,
+				99DB1E7E3A12EA34412630078A4D5415 /* Support Files */,
+			);
+			name = EllipticCurveKeyPair;
+			path = EllipticCurveKeyPair;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0850F8DC81F9E16CF2C954D955C15BBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D470861102790D03CA01727CD2673713 /* EllipticCurveKeyPair-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365D348220C90E2C9DFA341E97EF342D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3731DCEB2A4A6E436FE0FE5D17889DD /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F000AF1C1384A990C6AF922DA6FD45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDE90A5C300144AFE5D3458B9376EC9 /* Pods-EllipticCurveKeyPair_sample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA9DD4FBDB4100C85B022C8AFF0A61A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E40AC8D6AFB6EBE4BB216C573BB9881 /* Pods-EllipticCurveKeyPair_sampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AFA66C5154898F76D2032FA5E159766 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1A0A74518E9CE87689CED947834A82 /* Build configuration list for PBXNativeTarget "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests" */;
+			buildPhases = (
+				365D348220C90E2C9DFA341E97EF342D /* Headers */,
+				C04822381CEAF39344711F6DF9DF565E /* Sources */,
+				61BC4C6C354FA6467A068EE8EFDFC452 /* Frameworks */,
+				7E05BA9C3FDBDEC3B547BE623E48D0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52946DB1C4D84988DDB766A8619A3866 /* PBXTargetDependency */,
+			);
+			name = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests";
+			productName = Pods_EllipticCurveKeyPair_sample_EllipticCurveKeyPair_sampleUITests;
+			productReference = BB43F0D11B67E576D703B3869A48E511 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		32D2203CEB551B5BF939910E2D90AEB2 /* Pods-EllipticCurveKeyPair_sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DD789B6DC925B3CC90AAA2C5417185 /* Build configuration list for PBXNativeTarget "Pods-EllipticCurveKeyPair_sample" */;
+			buildPhases = (
+				98F000AF1C1384A990C6AF922DA6FD45 /* Headers */,
+				8326DE9FBF0915D5B823FD221F1B6AA8 /* Sources */,
+				9A17E667FB29972E24351AE92AF8FAD9 /* Frameworks */,
+				26B37FBE86F25E69DFC951DC3DC906A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DDBF588F56E8CFEA4D5D2B8769E7807 /* PBXTargetDependency */,
+			);
+			name = "Pods-EllipticCurveKeyPair_sample";
+			productName = Pods_EllipticCurveKeyPair_sample;
+			productReference = 62552D91800F0272764209A4CBCA150A /* Pods-EllipticCurveKeyPair_sample */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2A3EE3D067DF5C1B467542440F611D5 /* EllipticCurveKeyPair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78FB0D4F7130D15E2CFDF1F799A25BB /* Build configuration list for PBXNativeTarget "EllipticCurveKeyPair" */;
+			buildPhases = (
+				0850F8DC81F9E16CF2C954D955C15BBB /* Headers */,
+				6437CEFE4A27EF3BD244930AFBB12CD8 /* Sources */,
+				4C71AD061E63EBFCED2B5035569155B7 /* Frameworks */,
+				49F0B3006FEC781797FE161691D8B24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EllipticCurveKeyPair;
+			productName = EllipticCurveKeyPair;
+			productReference = A485A644673499CF79453EDBC395ADE6 /* EllipticCurveKeyPair */;
+			productType = "com.apple.product-type.framework";
+		};
+		E55D48533EFA79C7E6C278A8791970D4 /* Pods-EllipticCurveKeyPair_sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD56DE938E24C836728623FAAF38F59C /* Build configuration list for PBXNativeTarget "Pods-EllipticCurveKeyPair_sampleTests" */;
+			buildPhases = (
+				FFA9DD4FBDB4100C85B022C8AFF0A61A /* Headers */,
+				53541AB1DB446DA43E97171BF47A41D9 /* Sources */,
+				3C770BCD5ED316B9DD705DB446D4BEDC /* Frameworks */,
+				607417C22163DD3F9ECBF54F25B6191E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CB47BFDDF3FAB872244F59E92741E79 /* PBXTargetDependency */,
+			);
+			name = "Pods-EllipticCurveKeyPair_sampleTests";
+			productName = Pods_EllipticCurveKeyPair_sampleTests;
+			productReference = B3FAD4C0D369B8C9059E4EDA51FE7AD0 /* Pods-EllipticCurveKeyPair_sampleTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C07C4198260BA7F24A7274FEAC58D1A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2A3EE3D067DF5C1B467542440F611D5 /* EllipticCurveKeyPair */,
+				32D2203CEB551B5BF939910E2D90AEB2 /* Pods-EllipticCurveKeyPair_sample */,
+				2AFA66C5154898F76D2032FA5E159766 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests */,
+				E55D48533EFA79C7E6C278A8791970D4 /* Pods-EllipticCurveKeyPair_sampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B37FBE86F25E69DFC951DC3DC906A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F0B3006FEC781797FE161691D8B24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607417C22163DD3F9ECBF54F25B6191E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E05BA9C3FDBDEC3B547BE623E48D0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53541AB1DB446DA43E97171BF47A41D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1737197E8216920E0479BFE8773E2F35 /* Pods-EllipticCurveKeyPair_sampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6437CEFE4A27EF3BD244930AFBB12CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13FDCDD900CDB696BAA1C4267E83717 /* EllipticCurveKeyPair.swift in Sources */,
+				7E6D256FF2DB6B9998E71466B1EACAC7 /* EllipticCurveKeyPair-dummy.m in Sources */,
+				38AE1825635C4ED47C60748273BB440B /* SHA256.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8326DE9FBF0915D5B823FD221F1B6AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35A183DE372158CDBABEA21E1640DDF /* Pods-EllipticCurveKeyPair_sample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04822381CEAF39344711F6DF9DF565E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0D1E7124635617E6F3F48364E27DDD /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DDBF588F56E8CFEA4D5D2B8769E7807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EllipticCurveKeyPair;
+			target = B2A3EE3D067DF5C1B467542440F611D5 /* EllipticCurveKeyPair */;
+			targetProxy = C1537048777B088A2FC8A1F26D8EC797 /* PBXContainerItemProxy */;
+		};
+		2CB47BFDDF3FAB872244F59E92741E79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EllipticCurveKeyPair_sample";
+			target = 32D2203CEB551B5BF939910E2D90AEB2 /* Pods-EllipticCurveKeyPair_sample */;
+			targetProxy = F558100448EEA9B852071D38B3174157 /* PBXContainerItemProxy */;
+		};
+		52946DB1C4D84988DDB766A8619A3866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EllipticCurveKeyPair;
+			target = B2A3EE3D067DF5C1B467542440F611D5 /* EllipticCurveKeyPair */;
+			targetProxy = B4EFDF5B03F26942635BA2D8165A1376 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22E498B0F03F6A97783BE9E9A09E9E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1BEFA0F2AC3D3CB7DC2DF2C22900DC /* EllipticCurveKeyPair.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EllipticCurveKeyPair/EllipticCurveKeyPair-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EllipticCurveKeyPair/EllipticCurveKeyPair-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EllipticCurveKeyPair/EllipticCurveKeyPair.modulemap";
+				PRODUCT_MODULE_NAME = EllipticCurveKeyPair;
+				PRODUCT_NAME = EllipticCurveKeyPair;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33562E298429B497C7879AD2624AF7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A42D3D4D5E15A3E059EC6EF13034C66 /* Pods-EllipticCurveKeyPair_sample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sample/Pods-EllipticCurveKeyPair_sample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sample/Pods-EllipticCurveKeyPair_sample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43599B1A78F59F6341737C7E916CFD84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C023D58E013779EEAB8A8E21ED61E34 /* Pods-EllipticCurveKeyPair_sampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sampleTests/Pods-EllipticCurveKeyPair_sampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sampleTests/Pods-EllipticCurveKeyPair_sampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		625A626B6DFFBBE959B1955B6F61CE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA725F24F4BD325B9CE5349E34A917D1 /* Pods-EllipticCurveKeyPair_sample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sample/Pods-EllipticCurveKeyPair_sample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sample/Pods-EllipticCurveKeyPair_sample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A8789C7F93D97D04D71BF64B21793EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1C97FF1EABFF7C150648FBAF2F5316 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB8012CEC5827C9C40E51B700EDFCF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8ABBFFF5D3D209533B8C4D46138551 /* EllipticCurveKeyPair.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EllipticCurveKeyPair/EllipticCurveKeyPair-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EllipticCurveKeyPair/EllipticCurveKeyPair-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EllipticCurveKeyPair/EllipticCurveKeyPair.modulemap";
+				PRODUCT_MODULE_NAME = EllipticCurveKeyPair;
+				PRODUCT_NAME = EllipticCurveKeyPair;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB3DFA6BADE07612CDE4440CBE9542FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365D0CD5F8298009EBABD0E8D496ECFB /* Pods-EllipticCurveKeyPair_sampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sampleTests/Pods-EllipticCurveKeyPair_sampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sampleTests/Pods-EllipticCurveKeyPair_sampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EA5DC5E9AD200AD7E7F02379786AAEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F495FA8E094F88AF17B29EF9F756BA1 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1A0A74518E9CE87689CED947834A82 /* Build configuration list for PBXNativeTarget "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8789C7F93D97D04D71BF64B21793EA8 /* Debug */,
+				EA5DC5E9AD200AD7E7F02379786AAEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */,
+				E873CA97BD124B21839AF13C9BE1CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DD789B6DC925B3CC90AAA2C5417185 /* Build configuration list for PBXNativeTarget "Pods-EllipticCurveKeyPair_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625A626B6DFFBBE959B1955B6F61CE42 /* Debug */,
+				33562E298429B497C7879AD2624AF7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78FB0D4F7130D15E2CFDF1F799A25BB /* Build configuration list for PBXNativeTarget "EllipticCurveKeyPair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E498B0F03F6A97783BE9E9A09E9E29 /* Debug */,
+				BB8012CEC5827C9C40E51B700EDFCF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD56DE938E24C836728623FAAF38F59C /* Build configuration list for PBXNativeTarget "Pods-EllipticCurveKeyPair_sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43599B1A78F59F6341737C7E916CFD84 /* Debug */,
+				CB3DFA6BADE07612CDE4440CBE9542FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

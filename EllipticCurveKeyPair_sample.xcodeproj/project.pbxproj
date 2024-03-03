@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF7BD7603453BFEF49B547A /* Pods_EllipticCurveKeyPair_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08E9667118096E6D72C857C /* Pods_EllipticCurveKeyPair_sampleTests.framework */; };
+		8217F40E1DAEB6D2581E8A1B /* Pods_EllipticCurveKeyPair_sample_EllipticCurveKeyPair_sampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119C4EB2D260A00D0BB57866 /* Pods_EllipticCurveKeyPair_sample_EllipticCurveKeyPair_sampleUITests.framework */; };
+		CEC35C07E0EF1A65A1027E4C /* Pods_EllipticCurveKeyPair_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FAFE31FCBD2C4BDBB887D3 /* Pods_EllipticCurveKeyPair_sample.framework */; };
+		CED525A22B93046700CA8F8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED525A12B93046700CA8F8C /* AppDelegate.swift */; };
+		CED525A42B93046700CA8F8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED525A32B93046700CA8F8C /* SceneDelegate.swift */; };
+		CED525A62B93046700CA8F8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED525A52B93046700CA8F8C /* ViewController.swift */; };
+		CED525A92B93046700CA8F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED525A72B93046700CA8F8C /* Main.storyboard */; };
+		CED525AB2B93046800CA8F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED525AA2B93046800CA8F8C /* Assets.xcassets */; };
+		CED525AE2B93046800CA8F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED525AC2B93046800CA8F8C /* LaunchScreen.storyboard */; };
+		CED525B92B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED525B82B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests.swift */; };
+		CED525C32B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED525C22B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests.swift */; };
+		CED525C52B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED525C42B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED525B52B93046900CA8F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED525962B93046700CA8F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED5259D2B93046700CA8F8C;
+			remoteInfo = EllipticCurveKeyPair_sample;
+		};
+		CED525BF2B93046900CA8F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED525962B93046700CA8F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED5259D2B93046700CA8F8C;
+			remoteInfo = EllipticCurveKeyPair_sample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		119C4EB2D260A00D0BB57866 /* Pods_EllipticCurveKeyPair_sample_EllipticCurveKeyPair_sampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EllipticCurveKeyPair_sample_EllipticCurveKeyPair_sampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		309026901C5C81CECB787293 /* Pods-EllipticCurveKeyPair_sampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllipticCurveKeyPair_sampleTests.debug.xcconfig"; path = "Target Support Files/Pods-EllipticCurveKeyPair_sampleTests/Pods-EllipticCurveKeyPair_sampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C88657290D2BC4A2BE4A941 /* Pods-EllipticCurveKeyPair_sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllipticCurveKeyPair_sampleTests.release.xcconfig"; path = "Target Support Files/Pods-EllipticCurveKeyPair_sampleTests/Pods-EllipticCurveKeyPair_sampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		67FAFE31FCBD2C4BDBB887D3 /* Pods_EllipticCurveKeyPair_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EllipticCurveKeyPair_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CFBD959BD2A7ABB944B185 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.release.xcconfig"; path = "Target Support Files/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C08E9667118096E6D72C857C /* Pods_EllipticCurveKeyPair_sampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EllipticCurveKeyPair_sampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED5259E2B93046700CA8F8C /* EllipticCurveKeyPair_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EllipticCurveKeyPair_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED525A12B93046700CA8F8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED525A32B93046700CA8F8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CED525A52B93046700CA8F8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED525A82B93046700CA8F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED525AA2B93046800CA8F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED525AD2B93046800CA8F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED525AF2B93046800CA8F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED525B42B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllipticCurveKeyPair_sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED525B82B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticCurveKeyPair_sampleTests.swift; sourceTree = "<group>"; };
+		CED525BE2B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllipticCurveKeyPair_sampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED525C22B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticCurveKeyPair_sampleUITests.swift; sourceTree = "<group>"; };
+		CED525C42B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticCurveKeyPair_sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D511381EF483CA3CC89D738F /* Pods-EllipticCurveKeyPair_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllipticCurveKeyPair_sample.debug.xcconfig"; path = "Target Support Files/Pods-EllipticCurveKeyPair_sample/Pods-EllipticCurveKeyPair_sample.debug.xcconfig"; sourceTree = "<group>"; };
+		DCA5BE601C3A531855A0ED43 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F12454ED93350E5F95B3252F /* Pods-EllipticCurveKeyPair_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllipticCurveKeyPair_sample.release.xcconfig"; path = "Target Support Files/Pods-EllipticCurveKeyPair_sample/Pods-EllipticCurveKeyPair_sample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED5259B2B93046700CA8F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC35C07E0EF1A65A1027E4C /* Pods_EllipticCurveKeyPair_sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED525B12B93046900CA8F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF7BD7603453BFEF49B547A /* Pods_EllipticCurveKeyPair_sampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED525BB2B93046900CA8F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8217F40E1DAEB6D2581E8A1B /* Pods_EllipticCurveKeyPair_sample_EllipticCurveKeyPair_sampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AACE11D0BBAD7BBC3CE8D747 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D511381EF483CA3CC89D738F /* Pods-EllipticCurveKeyPair_sample.debug.xcconfig */,
+				F12454ED93350E5F95B3252F /* Pods-EllipticCurveKeyPair_sample.release.xcconfig */,
+				DCA5BE601C3A531855A0ED43 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.debug.xcconfig */,
+				86CFBD959BD2A7ABB944B185 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.release.xcconfig */,
+				309026901C5C81CECB787293 /* Pods-EllipticCurveKeyPair_sampleTests.debug.xcconfig */,
+				3C88657290D2BC4A2BE4A941 /* Pods-EllipticCurveKeyPair_sampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B059A5446B14902BC4E18432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67FAFE31FCBD2C4BDBB887D3 /* Pods_EllipticCurveKeyPair_sample.framework */,
+				119C4EB2D260A00D0BB57866 /* Pods_EllipticCurveKeyPair_sample_EllipticCurveKeyPair_sampleUITests.framework */,
+				C08E9667118096E6D72C857C /* Pods_EllipticCurveKeyPair_sampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED525952B93046700CA8F8C = {
+			isa = PBXGroup;
+			children = (
+				CED525A02B93046700CA8F8C /* EllipticCurveKeyPair_sample */,
+				CED525B72B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests */,
+				CED525C12B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests */,
+				CED5259F2B93046700CA8F8C /* Products */,
+				AACE11D0BBAD7BBC3CE8D747 /* Pods */,
+				B059A5446B14902BC4E18432 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CED5259F2B93046700CA8F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED5259E2B93046700CA8F8C /* EllipticCurveKeyPair_sample.app */,
+				CED525B42B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests.xctest */,
+				CED525BE2B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED525A02B93046700CA8F8C /* EllipticCurveKeyPair_sample */ = {
+			isa = PBXGroup;
+			children = (
+				CED525A12B93046700CA8F8C /* AppDelegate.swift */,
+				CED525A32B93046700CA8F8C /* SceneDelegate.swift */,
+				CED525A52B93046700CA8F8C /* ViewController.swift */,
+				CED525A72B93046700CA8F8C /* Main.storyboard */,
+				CED525AA2B93046800CA8F8C /* Assets.xcassets */,
+				CED525AC2B93046800CA8F8C /* LaunchScreen.storyboard */,
+				CED525AF2B93046800CA8F8C /* Info.plist */,
+			);
+			path = EllipticCurveKeyPair_sample;
+			sourceTree = "<group>";
+		};
+		CED525B72B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED525B82B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests.swift */,
+			);
+			path = EllipticCurveKeyPair_sampleTests;
+			sourceTree = "<group>";
+		};
+		CED525C12B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CED525C22B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests.swift */,
+				CED525C42B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITestsLaunchTests.swift */,
+			);
+			path = EllipticCurveKeyPair_sampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED5259D2B93046700CA8F8C /* EllipticCurveKeyPair_sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED525C82B93046900CA8F8C /* Build configuration list for PBXNativeTarget "EllipticCurveKeyPair_sample" */;
+			buildPhases = (
+				47B46E55F6E6FE146AF5DE4A /* [CP] Check Pods Manifest.lock */,
+				CED5259A2B93046700CA8F8C /* Sources */,
+				CED5259B2B93046700CA8F8C /* Frameworks */,
+				CED5259C2B93046700CA8F8C /* Resources */,
+				2F8E8F2BD57E359D802C5534 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EllipticCurveKeyPair_sample;
+			productName = EllipticCurveKeyPair_sample;
+			productReference = CED5259E2B93046700CA8F8C /* EllipticCurveKeyPair_sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED525B32B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED525CB2B93046900CA8F8C /* Build configuration list for PBXNativeTarget "EllipticCurveKeyPair_sampleTests" */;
+			buildPhases = (
+				7E6C57D258B84C2DD6DF3696 /* [CP] Check Pods Manifest.lock */,
+				CED525B02B93046900CA8F8C /* Sources */,
+				CED525B12B93046900CA8F8C /* Frameworks */,
+				CED525B22B93046900CA8F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED525B62B93046900CA8F8C /* PBXTargetDependency */,
+			);
+			name = EllipticCurveKeyPair_sampleTests;
+			productName = EllipticCurveKeyPair_sampleTests;
+			productReference = CED525B42B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CED525BD2B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED525CE2B93046900CA8F8C /* Build configuration list for PBXNativeTarget "EllipticCurveKeyPair_sampleUITests" */;
+			buildPhases = (
+				CD741A9E607EE168D2D76733 /* [CP] Check Pods Manifest.lock */,
+				CED525BA2B93046900CA8F8C /* Sources */,
+				CED525BB2B93046900CA8F8C /* Frameworks */,
+				CED525BC2B93046900CA8F8C /* Resources */,
+				2D68771A75255B31E3E0E8A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED525C02B93046900CA8F8C /* PBXTargetDependency */,
+			);
+			name = EllipticCurveKeyPair_sampleUITests;
+			productName = EllipticCurveKeyPair_sampleUITests;
+			productReference = CED525BE2B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED525962B93046700CA8F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CED5259D2B93046700CA8F8C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CED525B32B93046900CA8F8C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CED5259D2B93046700CA8F8C;
+					};
+					CED525BD2B93046900CA8F8C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CED5259D2B93046700CA8F8C;
+					};
+				};
+			};
+			buildConfigurationList = CED525992B93046700CA8F8C /* Build configuration list for PBXProject "EllipticCurveKeyPair_sample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED525952B93046700CA8F8C;
+			productRefGroup = CED5259F2B93046700CA8F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED5259D2B93046700CA8F8C /* EllipticCurveKeyPair_sample */,
+				CED525B32B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests */,
+				CED525BD2B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED5259C2B93046700CA8F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED525AE2B93046800CA8F8C /* LaunchScreen.storyboard in Resources */,
+				CED525AB2B93046800CA8F8C /* Assets.xcassets in Resources */,
+				CED525A92B93046700CA8F8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED525B22B93046900CA8F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED525BC2B93046900CA8F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D68771A75255B31E3E0E8A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F8E8F2BD57E359D802C5534 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EllipticCurveKeyPair_sample/Pods-EllipticCurveKeyPair_sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EllipticCurveKeyPair_sample/Pods-EllipticCurveKeyPair_sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EllipticCurveKeyPair_sample/Pods-EllipticCurveKeyPair_sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47B46E55F6E6FE146AF5DE4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EllipticCurveKeyPair_sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6C57D258B84C2DD6DF3696 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EllipticCurveKeyPair_sampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD741A9E607EE168D2D76733 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED5259A2B93046700CA8F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED525A62B93046700CA8F8C /* ViewController.swift in Sources */,
+				CED525A22B93046700CA8F8C /* AppDelegate.swift in Sources */,
+				CED525A42B93046700CA8F8C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED525B02B93046900CA8F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED525B92B93046900CA8F8C /* EllipticCurveKeyPair_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED525BA2B93046900CA8F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED525C52B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITestsLaunchTests.swift in Sources */,
+				CED525C32B93046900CA8F8C /* EllipticCurveKeyPair_sampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED525B62B93046900CA8F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED5259D2B93046700CA8F8C /* EllipticCurveKeyPair_sample */;
+			targetProxy = CED525B52B93046900CA8F8C /* PBXContainerItemProxy */;
+		};
+		CED525C02B93046900CA8F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED5259D2B93046700CA8F8C /* EllipticCurveKeyPair_sample */;
+			targetProxy = CED525BF2B93046900CA8F8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED525A72B93046700CA8F8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED525A82B93046700CA8F8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED525AC2B93046800CA8F8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED525AD2B93046800CA8F8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED525C62B93046900CA8F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED525C72B93046900CA8F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED525C92B93046900CA8F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D511381EF483CA3CC89D738F /* Pods-EllipticCurveKeyPair_sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR7RT2PWDJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EllipticCurveKeyPair_sample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miyazawa.EllipticCurveKeyPair-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED525CA2B93046900CA8F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12454ED93350E5F95B3252F /* Pods-EllipticCurveKeyPair_sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR7RT2PWDJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EllipticCurveKeyPair_sample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miyazawa.EllipticCurveKeyPair-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CED525CC2B93046900CA8F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309026901C5C81CECB787293 /* Pods-EllipticCurveKeyPair_sampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR7RT2PWDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miyazawa.EllipticCurveKeyPair-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EllipticCurveKeyPair_sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EllipticCurveKeyPair_sample";
+			};
+			name = Debug;
+		};
+		CED525CD2B93046900CA8F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C88657290D2BC4A2BE4A941 /* Pods-EllipticCurveKeyPair_sampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR7RT2PWDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miyazawa.EllipticCurveKeyPair-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EllipticCurveKeyPair_sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EllipticCurveKeyPair_sample";
+			};
+			name = Release;
+		};
+		CED525CF2B93046900CA8F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA5BE601C3A531855A0ED43 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR7RT2PWDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miyazawa.EllipticCurveKeyPair-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EllipticCurveKeyPair_sample;
+			};
+			name = Debug;
+		};
+		CED525D02B93046900CA8F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CFBD959BD2A7ABB944B185 /* Pods-EllipticCurveKeyPair_sample-EllipticCurveKeyPair_sampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR7RT2PWDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miyazawa.EllipticCurveKeyPair-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EllipticCurveKeyPair_sample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED525992B93046700CA8F8C /* Build configuration list for PBXProject "EllipticCurveKeyPair_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED525C62B93046900CA8F8C /* Debug */,
+				CED525C72B93046900CA8F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED525C82B93046900CA8F8C /* Build configuration list for PBXNativeTarget "EllipticCurveKeyPair_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED525C92B93046900CA8F8C /* Debug */,
+				CED525CA2B93046900CA8F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED525CB2B93046900CA8F8C /* Build configuration list for PBXNativeTarget "EllipticCurveKeyPair_sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED525CC2B93046900CA8F8C /* Debug */,
+				CED525CD2B93046900CA8F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED525CE2B93046900CA8F8C /* Build configuration list for PBXNativeTarget "EllipticCurveKeyPair_sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED525CF2B93046900CA8F8C /* Debug */,
+				CED525D02B93046900CA8F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED525962B93046700CA8F8C /* Project object */;
+}

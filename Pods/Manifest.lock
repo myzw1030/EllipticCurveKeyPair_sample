@@ -1,0 +1,16 @@
+PODS:
+  - EllipticCurveKeyPair (2.0)
+
+DEPENDENCIES:
+  - EllipticCurveKeyPair
+
+SPEC REPOS:
+  trunk:
+    - EllipticCurveKeyPair
+
+SPEC CHECKSUMS:
+  EllipticCurveKeyPair: 8c69e5238a6e47243a10a48fbd41dfb19110b22e
+
+PODFILE CHECKSUM: 7667eb4b36fab987de892124745b08e1521dac8e
+
+COCOAPODS: 1.13.0
